@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1038</width>
+    <height>701</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1041</width>
+     <height>701</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(218, 239, 252);</string>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Tab 1</string>
+    </attribute>
+    <widget class="QLabel" name="label_show_welcome">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>90</y>
+       <width>631</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>72</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(0, 0, 0);
+background-color: rgb(153, 204, 153);
+border-radius: 50px;</string>
+     </property>
+     <property name="text">
+      <string>木地板分选</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Tab1_1">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>440</y>
+       <width>211</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(153, 102, 51);
+border-radius:20px;
+background-color:rgb(170, 214, 255);
+border-width:4px;   </string>
+     </property>
+     <property name="text">
+      <string>分选页面</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Tab1_2">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>440</y>
+       <width>211</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(153, 102, 51);
+border-radius:20px;
+background-color:rgb(170, 214, 255);
+border-width:4px;   </string>
+     </property>
+     <property name="text">
+      <string>详细设置</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Tab 2</string>
+    </attribute>
+    <widget class="QLabel" name="showlabel">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>611</width>
+       <height>431</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Tab2_start">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>498</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>22</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>开始</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Tab2_stop">
+     <property name="geometry">
+      <rect>
+       <x>870</x>
+       <y>498</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>22</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>结束</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Tab2_mainMenu">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>498</y>
+       <width>150</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>24</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(238, 238, 236);
+border-radius:15px;
+background-color: rgb(136, 138, 133);
+border-width:4px;   </string>
+     </property>
+     <property name="text">
+      <string>主菜单</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_showSorting">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>430</y>
+       <width>611</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>33</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(0, 0, 0);
+background-color: rgb(153, 204, 153);
+border-radius: 50px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>20</y>
+       <width>381</width>
+       <height>381</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>自学习</string>
+     </property>
+     <widget class="QPushButton" name="btn_Tab2_autoLearning">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>50</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>自学习</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_Tab2_light">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>140</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>保存花纹</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_Tab2_middle">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>140</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>保存直纹</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_Tab2_dark">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>230</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>保存深色</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_Tab2_train">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>310</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>训练模型</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_Tab2_Preprocessing">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>230</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>17</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>图片预处理</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_Tab2_show">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>310</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>17</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>图片展示</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="btn_Tab2_start_2">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>580</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>22</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>light</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Tab2_start_3">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>580</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>22</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>middle</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Tab2_start_4">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>580</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>22</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>dark</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>页</string>
+    </attribute>
+    <widget class="QLabel" name="label_detailedSettings">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>180</width>
+       <height>58</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>30</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(238, 238, 236);
+background-color: rgb(204, 0, 0);
+border-radius:10px;</string>
+     </property>
+     <property name="text">
+      <string>详细设置</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Tab3_cameraParasettings">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>140</y>
+       <width>211</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(238, 238, 236);
+border-radius:10px;
+background-color: rgb(136, 138, 133);
+font: 24pt &quot;Ubuntu&quot;;
+border-width:4px;   </string>
+     </property>
+     <property name="text">
+      <string>相机校正</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Tab3_mainMenu">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>560</y>
+       <width>150</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(238, 238, 236);
+border-radius:10px;
+background-color: rgb(136, 138, 133);
+font: 24pt &quot;Ubuntu&quot;;
+border-width:4px;   </string>
+     </property>
+     <property name="text">
+      <string>主菜单</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Tab3_saveImg">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>140</y>
+       <width>211</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(238, 238, 236);
+border-radius:10px;
+background-color: rgb(136, 138, 133);
+font: 24pt &quot;Ubuntu&quot;;
+border-width:4px;   </string>
+     </property>
+     <property name="text">
+      <string>保存图片</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Tab3_changeModel">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>260</y>
+       <width>211</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(238, 238, 236);
+border-radius:10px;
+background-color: rgb(136, 138, 133);
+font: 24pt &quot;Ubuntu&quot;;
+border-width:4px;   </string>
+     </property>
+     <property name="text">
+      <string>切换模型</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>页</string>
+    </attribute>
+    <widget class="QPushButton" name="btn_Tab4_return">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>560</y>
+       <width>261</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>24</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(238, 238, 236);
+background-color: rgb(136, 138, 133);
+border-radius:10px;</string>
+     </property>
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="showlabel_set">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>591</width>
+       <height>401</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_Tab4_1">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>530</y>
+       <width>281</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>17</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>亮度值</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_Tab4_2">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>550</y>
+       <width>141</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Tab4_black">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>130</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>22</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>黑场采集</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Tab4_white">
+     <property name="geometry">
+      <rect>
+       <x>810</x>
+       <y>130</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>22</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>白场采集</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Tab4_wbcorrect">
+     <property name="geometry">
+      <rect>
+       <x>810</x>
+       <y>210</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>22</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>黑白校正</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Tab4_exit">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>430</y>
+       <width>211</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>22</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>停止显示</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Tab4_getCorrect">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>430</y>
+       <width>211</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>22</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>显示图像亮度</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_5">
+    <attribute name="title">
+     <string>页</string>
+    </attribute>
+    <widget class="QLabel" name="label_show_welcome_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>90</y>
+       <width>971</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>64</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(0, 0, 0);
+background-color: rgb(153, 204, 153);
+border-radius: 50px;</string>
+     </property>
+     <property name="text">
+      <string>木地板颜色分选系统</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_showSorting_2">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>310</y>
+       <width>441</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>33</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(0, 0, 0);
+background-color: rgb(255, 192, 203);
+border-radius: 50px;</string>
+     </property>
+     <property name="text">
+      <string>光源预热中...</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Tab5_skip">
+     <property name="geometry">
+      <rect>
+       <x>840</x>
+       <y>540</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>22</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>忽略</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
